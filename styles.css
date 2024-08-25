@@ -1,5 +1,6 @@
 body {
-    background-color: #000000;
+    background: url('space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #00FF00;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -11,6 +12,20 @@ body {
     width: 80%;
     margin: auto;
     padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.main-header img {
+    border-radius: 10px;
 }
 
 h1, h2 {
@@ -20,6 +35,35 @@ h1, h2 {
 p {
     line-height: 1.5;
     margin: 20px 0;
+}
+
+.directory-header {
+    color: #FF00FF;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.directory-link {
+    color: #FF00FF;
+    background-color: #4B0082;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.directory-link:hover {
+    background-color: #FFFF00;
+    color: #4B0082;
 }
 
 footer {
