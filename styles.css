@@ -42,7 +42,7 @@ h1 {
 }
 
 .main-header h1:nth-of-type(3) {
-    font-size: 0.8em; /* Slightly smaller for the third h1 */
+    font-size: 0.5em; /* Slightly smaller for the third h1 */
 }
 
 h2 {
