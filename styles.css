@@ -59,13 +59,16 @@ p {
     flex-direction: column;
     align-items: flex-start; /* Align links to the left */
     margin-top: 10px;
+    list-style-type: disc; /* Add bullets */
+    margin-left: 20px; /* Indent the list */
 }
 
 .directory-link {
     color: #A020F0; /* Electric Purple */
     padding: 10px 0;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Make the links larger */
+    line-height: 1.8em; /* Add more space between links */
 }
 
 .directory-link:hover {
