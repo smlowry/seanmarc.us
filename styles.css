@@ -1,5 +1,6 @@
 body {
     background: url('tile.jpg') repeat;
+    background-size: 50px 50px;
     color: #00FF00;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -23,7 +24,7 @@ body {
     padding-bottom: 20px;
 }
 
-.main-header h1 {
+h1 {
     color: #7DF9FF; /* Light Blue */
     flex: 1;
     text-align: left;
