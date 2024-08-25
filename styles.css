@@ -18,39 +18,32 @@ body {
 
 .main-header {
     display: flex;
-    justify-content: space-between; /* Distribute space between text and image */
+    justify-content: space-between;
     align-items: center; /* Center items vertically */
     padding-bottom: 20px;
 }
 
 .text-block {
-    flex: 1;
-    margin-right: 20px;
-    text-align: center; /* Center the text block */
+    flex: 0 0 50%; /* Take up 50% of the width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center contents vertically */
+    align-items: center; /* Center contents horizontally */
+    text-align: center; /* Ensure the text is centered */
 }
-
 
 .image-block {
-    flex: 0 0 25%; /* Set the image block to take up 25% of the width */
+    flex: 0 0 50%; /* Take up 50% of the width */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Align image to the far left */
     align-items: center;
-    margin-left: 15%; /* Add margin to the left of the image block */
-    margin-right: 0; /* Reduce margin to the right */
 }
 
 .image-block img {
     border-radius: 10px;
-    width: 100%; /* Image takes up full width of the image block */
+    max-width: 300px; /* Control image size */
     height: auto;
-    max-width: 300px; /* Ensure the image doesn’t get too large */
-}
-
-.image-block img {
-    border-radius: 10px;
-    width: 100%; /* Image takes up full width of the image block */
-    height: auto;
-    max-width: 300px; /* Ensure the image doesn’t get too large */
+    margin-left: 0; /* Remove any left margin */
 }
 
 h1 {
@@ -78,7 +71,7 @@ h2 {
 
 p {
     line-height: 1.5;
-    margin: 0 50px; /* Add only left and right margins for readability */
+    margin: 0 100px; /* Add only left and right margins for readability */
     text-align: left; /* Left-align paragraphs */
 }
 
