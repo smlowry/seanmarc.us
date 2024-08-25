@@ -1,106 +1,44 @@
-body {
-    background: url('tile.jpg') repeat;
-    background-size: 315px 224px;
-    color: #00FF00;
-    font-family: "Courier New", Courier, monospace;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seanmarc.us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="text-block">
+                <h1>Welcome to my website.</h1>
+                <h1>seanmarc.us</h1>
+                <h1>A development project and multi-purpose portfolio.</h1>
+            </div>
+            <div class="image-block">
+                <img src="planet.png" alt="Placeholder Image">
+            </div>
+        </header>
+        <h2>Professional Clown. Amatuer Subversive. Philosophunculist on Active Duty. Muppet.</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet dignissim augue. Nulla facilisi. Sed vehicula dolor at sapien sollicitudin, non placerat elit elementum. Vestibulum tempor orci vel nunc volutpat, vel dictum sapien sollicitudin. Phasellus sit amet vestibulum odio.</p>
+        <p>Morbi non dolor nec libero sodales gravida. Vivamus sit amet velit euismod, vehicula leo eu, commodo dolor. Aenean euismod ex ac orci dictum, sit amet dignissim urna volutpat. Nulla non felis vitae erat elementum vehicula. Cras auctor mauris sit amet orci facilisis ultricies.</p>
+        <p>Praesent id risus nec magna varius posuere ac et dolor. Nulla non elit ut nunc fermentum convallis. Sed fringilla venenatis sapien, in auctor justo fringilla ac. Donec laoreet quam et nunc ultricies, et volutpat leo consequat.</p>
+        <br>
+        <section class="directory">
+            <h1 class="directory-header">Personal Activities and Professional Engagements</h1>
+            <ul class="links-container">
+                <li><a href="#" class="directory-link">Development Portfolio</a></li>
+                <li><a href="#" class="directory-link">Musical Repertoire</a></li>
+                <li><a href="#" class="directory-link">YouTube Channel</a></li>
+                <li><a href="#" class="directory-link">Social Media</a></li>
+                <li><a href="#" class="directory-link">Contact Me</a></li>
+            </ul>
+        </section>
 
-.container {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent dark background for readability */
-    border-radius: 10px;
-    padding: 20px;
-}
-
-.main-header {
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-h1 {
-    color: #00BFFF; /* Slightly Darker Electric Blue */
-    margin: 10px 0; /* Add some margin to space them out */
-}
-
-.main-header img {
-    border-radius: 10px;
-    width: 500px; /* Resize image to 500px */
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Center the image and add space around it */
-}
-
-h2 {
-    color: #FF1493; /* Brighter Hot Pink */
-}
-
-p {
-    line-height: 1.5;
-    margin: 20px 0;
-}
-
-.directory-header {
-    font-size: 2.5em; /* Increase font size to fill the page */
-    margin-top: 30px;
-    text-align: center; /* Center the header */
-}
-
-.links-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align links to the left */
-    margin-top: 10px;
-    list-style-type: disc; /* Add bullets */
-    margin-left: 20px; /* Indent the list */
-}
-
-.directory-link {
-    color: #A020F0; /* Electric Purple */
-    padding: 10px 0;
-    text-decoration: none;
-    font-size: 1.5em; /* Make the links larger */
-    line-height: 1.8em; /* Add more space between links */
-}
-
-.directory-link:hover {
-    color: #FFFF00; /* Yellow on hover */
-}
-
-.yellow {
-    color: #FFFF00; /* Yellow for other text elements */
-}
-
-.red {
-    color: #FF0000; /* Red for other text elements */
-}
-
-.light-purple {
-    color: #A020F0; /* Electric Purple for other text elements */
-}
-
-.light-blue {
-    color: #00BFFF; /* Slightly Darker Electric Blue for other text elements */
-}
-
-footer {
-    margin-top: 40px;
-    font-size: 14px;
-    color: #FFFFFF;
-}
-
-footer p {
-    display: inline;
-}
-
-footer p.red {
-    color: #FF0000; /* Red text */
-}
-
-footer p.yellow {
-    color: #FFFF00; /* Yellow text */
-}
+        <footer>
+            <p class="red">&copy; 2024 Sean Marcus Lowry</p>
+            <p class="yellow"> - All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
