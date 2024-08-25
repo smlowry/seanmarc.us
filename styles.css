@@ -18,22 +18,30 @@ body {
 
 .main-header {
     display: flex;
-    justify-content: center; /* Center the content */
+    justify-content: space-between; /* Distribute space between text and image */
     align-items: center; /* Center items vertically */
     padding-bottom: 20px;
-    gap: 20px; /* Add space between the text and image blocks */
 }
 
 .text-block {
     flex: 1;
+    margin-right: 20px;
     text-align: center; /* Center the text block */
+}
+
+.image-block {
+    flex: 0 0 25%; /* Set the image block to take up 25% of the width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%; /* Slight margin to the right */
 }
 
 .image-block img {
     border-radius: 10px;
-    width: 300px; /* Resize image to 300px */
+    width: 100%; /* Image takes up full width of the image block */
     height: auto;
-    max-width: 100%;
+    max-width: 300px; /* Ensure the image doesn’t get too large */
 }
 
 h1 {
@@ -56,12 +64,12 @@ h1 {
 h2 {
     color: #FF1493; /* Brighter Hot Pink */
     text-align: center; /* Center the subtitle */
-    font-size: 1.5em;
+    font-size: 2em; /* Increase h2 size to 2em */
 }
 
 p {
     line-height: 1.5;
-    margin: 0 20px; /* Add only left and right margins for readability */
+    margin: 0 50px; /* Add only left and right margins for readability */
     text-align: left; /* Left-align paragraphs */
 }
 
