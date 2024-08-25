@@ -3,7 +3,6 @@ body {
     background-size: 315px 224px;
     color: #00FF00;
     font-family: "Courier New", Courier, monospace;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -19,36 +18,38 @@ body {
 
 .main-header {
     display: flex;
-    justify-content: space-between; /* Spread out the text and image blocks */
-    align-items: center; /* Align items vertically in the center */
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
     padding-bottom: 20px;
-    text-align: left;
 }
 
 .text-block {
-    flex: 1; /* Allow the text block to take up available space */
-    margin-right: 20px; /* Add space between the text and the image */
+    flex: 1;
+    margin-right: 20px;
 }
 
 .image-block img {
     border-radius: 10px;
     width: 500px; /* Resize image to 500px */
     height: auto;
-    max-width: 100%; /* Ensure it scales responsively */
+    max-width: 100%;
 }
 
 h1 {
     color: #00BFFF; /* Slightly Darker Electric Blue */
-    margin: 10px 0; /* Add some margin to space them out */
+    margin: 10px 0;
+    text-align: center;
 }
 
 h2 {
     color: #FF1493; /* Brighter Hot Pink */
+    text-align: center; /* Center the subtitle */
 }
 
 p {
     line-height: 1.5;
     margin: 20px 0;
+    text-align: left; /* Left-align paragraphs */
 }
 
 .directory-header {
@@ -59,14 +60,14 @@ p {
 }
 
 .links-container {
-    list-style-type: disc; /* Ensure bullets are shown */
+    list-style-type: disc;
     padding-left: 40px; /* Indent the entire list */
+    text-align: left; /* Align text to the left */
 }
 
 .links-container li {
     margin-left: 20px; /* Additional indent for each list item */
 }
-
 
 .directory-link {
     color: #A020F0; /* Electric Purple */
@@ -99,17 +100,4 @@ p {
 footer {
     margin-top: 40px;
     font-size: 14px;
-    color: #FFFFFF;
-}
-
-footer p {
-    display: inline;
-}
-
-footer p.red {
-    color: #FF0000; /* Red text */
-}
-
-footer p.yellow {
-    color: #FFFF00; /* Yellow text */
-}
+    col
