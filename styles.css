@@ -30,7 +30,6 @@ body {
 }
 
 .main-header img {
-    <img src="cover.jpg" alt="Description of My Image">
     border-radius: 10px;
     width: 300px; /* Larger Placeholder Image */
     height: auto;
