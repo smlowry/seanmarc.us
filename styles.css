@@ -24,7 +24,7 @@ body {
 }
 
 .text-block {
-    flex: 0 0 50%; /* Take up 50% of the width */
+    flex: 0 0 67%; /* Take up 50% of the width */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center contents vertically */
@@ -33,7 +33,7 @@ body {
 }
 
 .image-block {
-    flex: 0 0 50%; /* Take up 50% of the width */
+    flex: 0 0 33%; /* Take up 50% of the width */
     display: flex;
     justify-content: flex-start; /* Align image to the far left */
     align-items: center;
