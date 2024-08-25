@@ -35,6 +35,7 @@ body {
     width: 500px; /* Resize image to 500px */
     height: auto;
     max-width: 100%;
+    margin: 0 100px 0 0;
 }
 
 h1 {
@@ -64,6 +65,7 @@ p {
     line-height: 1.5;
     margin: 20px 0;
     text-align: left; /* Left-align paragraphs */
+    padding: 200px;
 }
 
 .directory-header {
