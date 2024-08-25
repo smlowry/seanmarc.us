@@ -1,6 +1,6 @@
 body {
     background: url('tile.jpg') repeat;
-    background-size: 50px 50px;
+    background-size: 100px 100px; /* Set tile size to 100px */
     color: #00FF00;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -12,7 +12,7 @@ body {
     width: 80%;
     margin: auto;
     padding-top: 50px;
-    background-color: rgba(0, 0, 0, 0.7); /* Keep a slightly transparent dark background for readability */
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent dark background for readability */
     border-radius: 10px;
     padding: 20px;
 }
@@ -20,24 +20,27 @@ body {
 .main-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center the content */
     padding-bottom: 20px;
 }
 
 h1 {
-    color: #7DF9FF; /* Light Blue */
+    color: #00BFFF; /* Slightly Darker Electric Blue */
     flex: 1;
     text-align: left;
+    max-width: 33%; /* Ensure h1 only takes up 1/3 of the screen */
 }
 
 .main-header img {
     border-radius: 10px;
-    width: 300px; /* Larger Placeholder Image */
+    width: 500px; /* Resize image to 500px */
     height: auto;
+    max-width: 66%; /* Cover about 2/3 of the screen */
+    margin-left: 20px; /* Add some space between the h1 and the image */
 }
 
 h2 {
-    color: #FF69B4; /* Hot Pink */
+    color: #FF1493; /* Brighter Hot Pink */
 }
 
 p {
@@ -46,7 +49,7 @@ p {
 }
 
 .directory-header {
-    color: #FF69B4; /* Hot Pink */
+    color: #FF1493; /* Brighter Hot Pink */
     font-size: 1.5em;
     margin-top: 30px;
 }
@@ -59,7 +62,7 @@ p {
 }
 
 .directory-link {
-    color: #DA70D6; /* Light Purple */
+    color: #A020F0; /* Electric Purple */
     padding: 10px 0;
     text-decoration: none;
     font-size: 1.2em;
@@ -78,15 +81,27 @@ p {
 }
 
 .light-purple {
-    color: #DA70D6; /* Light Purple for other text elements */
+    color: #A020F0; /* Electric Purple for other text elements */
 }
 
 .light-blue {
-    color: #ADD8E6; /* Light Blue for other text elements */
+    color: #00BFFF; /* Slightly Darker Electric Blue for other text elements */
 }
 
 footer {
     margin-top: 40px;
     font-size: 14px;
     color: #FFFFFF;
+}
+
+footer p {
+    display: inline;
+}
+
+footer p.red {
+    color: #FF0000; /* Red text */
+}
+
+footer p.yellow {
+    color: #FFFF00; /* Yellow text */
 }
