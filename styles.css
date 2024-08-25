@@ -41,6 +41,10 @@ h1 {
     text-align: center;
 }
 
+.main-header h1:nth-of-type(3) {
+    font-size: 0.8em; /* Slightly smaller for the third h1 */
+}
+
 h2 {
     color: #FF1493; /* Brighter Hot Pink */
     text-align: center; /* Center the subtitle */
@@ -62,11 +66,13 @@ p {
 .links-container {
     list-style-type: disc;
     padding-left: 40px; /* Indent the entire list */
-    text-align: left; /* Align text to the left */
+    text-align: left; /* Ensure the list itself is left-aligned */
+    margin: 0; /* Reset any default margins */
 }
 
 .links-container li {
     margin-left: 20px; /* Additional indent for each list item */
+    text-align: left; /* Ensure each list item is left-aligned */
 }
 
 .directory-link {
@@ -100,4 +106,18 @@ p {
 footer {
     margin-top: 40px;
     font-size: 14px;
-    col
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer p {
+    display: inline;
+}
+
+footer p.red {
+    color: #FF0000; /* Red text */
+}
+
+footer p.yellow {
+    color: #FFFF00; /* Yellow text */
+}
