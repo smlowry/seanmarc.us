@@ -1,6 +1,6 @@
 body {
     background: url('tile.jpg') repeat;
-    background-size: 315px 224px;
+    background-size: 315px 224px; /* Your specific tile size */
     color: #00FF00;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
@@ -50,8 +50,9 @@ p {
 
 .directory-header {
     color: #FF1493; /* Brighter Hot Pink */
-    font-size: 1.5em;
+    font-size: 2.5em; /* Increase font size to fill the page */
     margin-top: 30px;
+    text-align: center; /* Center the header */
 }
 
 .links-container {
