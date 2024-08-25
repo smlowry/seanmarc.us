@@ -19,13 +19,14 @@ body {
 .main-header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
+    align-items: center; /* Center items vertically */
     padding-bottom: 20px;
 }
 
 .text-block {
     flex: 1;
     margin-right: 20px;
+    text-align: left; /* Ensure the text is left-aligned */
 }
 
 .image-block img {
@@ -38,11 +39,11 @@ body {
 h1 {
     color: #00BFFF; /* Slightly Darker Electric Blue */
     margin: 10px 0;
-    text-align: center;
+    text-align: left; /* Ensure text is left-aligned */
 }
 
 .main-header h1:nth-of-type(3) {
-    font-size: 0.5em; /* Slightly smaller for the third h1 */
+    font-size: 0.8em; /* Slightly smaller for the third h1 */
 }
 
 h2 {
@@ -65,22 +66,20 @@ p {
 
 .links-container {
     list-style-type: disc;
-    padding-left: 40px; /* Indent the entire list */
-    text-align: left; /* Ensure the list itself is left-aligned */
+    padding-left: 20%; /* Indent the entire list by 20% of the container's width */
     margin: 0; /* Reset any default margins */
 }
 
 .links-container li {
-    margin-left: 20px; /* Additional indent for each list item */
+    margin-left: 0; /* Remove extra indent on individual list items */
     text-align: left; /* Ensure each list item is left-aligned */
 }
 
 .directory-link {
     color: #A020F0; /* Electric Purple */
-    padding: 10px 0;
+    padding: 5px 0; /* Reduce padding between links to remove extra space */
     text-decoration: none;
     font-size: 1.5em; /* Make the links larger */
-    line-height: 1.8em; /* Add more space between links */
 }
 
 .directory-link:hover {
