@@ -29,12 +29,21 @@ body {
     text-align: center; /* Center the text block */
 }
 
+
 .image-block {
     flex: 0 0 25%; /* Set the image block to take up 25% of the width */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 5%; /* Slight margin to the right */
+    margin-left: 15%; /* Add margin to the left of the image block */
+    margin-right: 0; /* Reduce margin to the right */
+}
+
+.image-block img {
+    border-radius: 10px;
+    width: 100%; /* Image takes up full width of the image block */
+    height: auto;
+    max-width: 300px; /* Ensure the image doesn’t get too large */
 }
 
 .image-block img {
